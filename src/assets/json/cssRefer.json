@@ -1,0 +1,309 @@
+
+{
+    "data": {
+      "type": "css",
+      "cssRefer": [
+        {
+          "id": 1,
+          "link": "https://webzz.tistory.com/361",
+          "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+          "title": "align-content",
+          "desc1": "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+          "desc2": "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+          "value": "align-content : stretch",
+          "apply": "flexbox",
+          "version": "CSS3",
+          "use": "★★★",
+          "definition": [
+            "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+            "align-content 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+          ]
+        },
+        {
+            "id": 2,
+            "link": "https://webzz.tistory.com/362",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "align-items",
+            "desc1": "align-items 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
+            "desc2": "align-items 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
+            "value": "align-items : stretch",
+            "apply": "flexbox",
+            "version": "CSS3",
+            "use": "★★☆",
+            "definition": [
+              "align-items 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
+              "align-content 속성은 컨테이너의 높이 값을 기준으로 정렬하고 align-items 속성은 아이템의 높이 값을 기준으로 정렬합니다."
+            ]    
+        },
+        {
+            "id": 3,
+            "link": "https://webzz.tistory.com/379",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "background-color",
+            "desc1": "background-color 속성은 백그라운드 색을 설정합니다.",
+            "desc2": "background-color 속성은 백그라운드 색을 설정합니다.",
+            "value": "background-color : transparent",
+            "apply": "background",
+            "version": "CSS1",
+            "use": "★★★",
+            "definition": [
+              "background-color 속성은 백그라운드 색을 설정합니다."
+            ]    
+        },
+        {
+            "id": 4,
+            "link": "https://webzz.tistory.com/380",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "background-image",
+            "desc1": "background-image 속성은 백그라운드 이미지 및 배경 속성을 설정합니다.",
+            "desc2": "background-image 속성은 백그라운드 이미지 및 배경 속성을 설정합니다.",
+            "value": "background-image : transparent",
+            "apply": "background",
+            "version": "CSS1",
+            "use": "★★★",
+            "definition": [
+              "background-image 속성은 백그라운드 이미지 및 배경 속성을 설정합니다.",    
+              "background-image 속성은 다중 이미지를 익스플로러9 이상부터 지원됩니다."    
+            ]    
+        },
+        {
+            "id": 5,
+            "link": "https://webzz.tistory.com/420",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "box-shadow",
+            "desc1": "box-shadow 속성은 박스 요소의 그림자를 설정합니다.",
+            "desc2": "box-shadow 속성은 박스 요소의 그림자를 설정합니다.",
+            "value": "box-shadow : none",
+            "apply": "-",
+            "version": "CSS3",
+            "use": "-",
+            "definition": [
+              "box-shadow 속성은 박스 요소의 그림자를 설정합니다."
+            ]    
+        },
+        {
+            "id": 6,
+            "link": "https://webzz.tistory.com/421",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "box-sizing",
+            "desc1": "box-sizing 속성은 요소 크기에 패딩 포함 여부를 설정합니다.",
+            "desc2": "box-sizing 속성은 요소 크기에 패딩 포함 여부를 설정합니다.",
+            "value": "box-sizing : content-box",
+            "apply": "box",
+            "version": "CSS3",
+            "use": "★★★",
+            "definition": [
+              "box-sizing 속성은 요소 크기에 패딩 포함 여부를 설정합니다.",    
+              "박스 요소의 width 값은 margin, padding, border 값을 포함하여 계산합니다.",    
+              "box-sizing: border-box로 설정할 경우 박스 요소의 width 값은 margin, border 값을 포함하여 계산합니다. padding 값은 제외됩니다."    
+            ]    
+        },
+        {
+            "id": 7,
+            "link": "https://webzz.tistory.com/426",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "color",
+            "desc1": "color 속성은 글씨 색을 설정합니다.",
+            "desc2": "color 속성은 글씨 색을 설정합니다.",
+            "value": "color : 브라우저마다 다양함(브라우저 기본 색)",
+            "apply": "font",
+            "version": "CSS1",
+            "use": "-",
+            "definition": [
+              "color 속성은 글씨 색을 설정합니다.",    
+              "font-color 속성은 존재하지 않습니다."
+            ]    
+        },
+        {
+            "id": 8,
+            "link": "https://webzz.tistory.com/440",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "cursor",
+            "desc1": "cursor 속성은 마우스 오버시 마우스 포인터를 정의합니다.",
+            "desc2": "cursor 속성은 마우스 오버시 마우스 포인터를 정의합니다.",
+            "value": "cursor : auto;",
+            "apply": "-",
+            "version": "CSS2",
+            "use": "-",
+            "definition": [
+              "cursor 속성은 마우스 오버시 마우스 포인터를 정의합니다."
+            ]    
+        },
+        {
+            "id": 9,
+            "link": "https://webzz.tistory.com/442",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "display",
+            "desc1": "display 속성은 요소의 성질을 정의합니다.",
+            "desc2": "display 속성은 요소의 성질을 정의합니다.",
+            "value": "display : inline",
+            "apply": "-",
+            "version": "CSS1",
+            "use": "-",
+            "definition": [
+              "display 속성은 요소의 성질을 정의합니다."
+            ]
+        },
+        {
+            "id": 10,
+            "link": "https://webzz.tistory.com/451",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "flex-wrap",
+            "desc1": "flex-wrap 속성은 요소의 줄 속성을 설정합니다.",
+            "desc2": "flex-wrap 속성은 요소의 줄 속성을 설정합니다.",
+            "value": "flex-wrap : nowrap",
+            "apply": "flex",
+            "version": "CSS3",
+            "use": "-",
+            "definition": [
+              "flex-wrap 속성은 요소의 줄 속성을 설정합니다.",    
+              "박스 요소의 width 값은 margin, padding, border 값을 포함하여 계산합니다.",    
+              "flex-wrap의 속성이 nowrap을 설정되어 있다면 요소의 width값과 height값은 무시가 됩니다."    
+            ]    
+        },
+        {
+            "id": 11,
+            "link": "https://webzz.tistory.com/452",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "float",
+            "desc1": "float 속성은 블록요소의 정렬 상태를 설정합니다.",
+            "desc2": "float 속성은 블록요소의 정렬 상태를 설정합니다.",
+            "value": "float : content-box",
+            "apply": "-",
+            "version": "CSS3",
+            "use": "-",
+            "definition": [
+              "float 속성은 블록요소의 정렬 상태를 설정합니다."
+            ]    
+        },
+        {
+            "id": 12,
+            "link": "https://webzz.tistory.com/454",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "font-family",
+            "desc1": "font-family 속성은 폰트 종류를 설정합니다.",
+            "desc2": "font-family 속성은 폰트 종류를 설정합니다.",
+            "value": "font-family : 사용자 설정에 따름",
+            "apply": "-",
+            "version": "CSS1",
+            "use": "-",
+            "definition": [
+              "font-family 속성은 폰트 종류를 설정합니다.",    
+              "사용자 컴퓨터에 서체가 설치돼 있어야 서체가 브라우저에 표현됩니다.",    
+              "폰트가 없을 경우를 대비해 쉼표(,)를 통해 여러개의 폰트를 설정가능합니다."
+            ]    
+        },
+        {
+            "id": 13,
+            "link": "https://webzz.tistory.com/455",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "font-size",
+            "desc1": "font-size 속성은 폰트 사이즈 속성을 설정합니다.",
+            "desc2": "font-size 속성은 폰트 사이즈 속성을 설정합니다.",
+            "value": "font-size : medium",
+            "apply": "font",
+            "version": "CSS1",
+            "use": "-",
+            "definition": [
+              "font-size 속성은 폰트 사이즈 속성을 설정합니다."   
+            ]    
+        },
+        {
+            "id": 14,
+            "link": "https://webzz.tistory.com/461",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "grid",
+            "desc1": "grid-template-columns 속성은 가로 컬럼의 크기와 위치 설정합니다.",
+            "desc2": "grid-template-columns 속성은 가로 컬럼의 크기와 위치 설정합니다.",
+            "value": "grid-template-columns : 0",
+            "apply": "Grid",
+            "version": "CSS3",
+            "use": "★★☆",
+            "definition": [
+              "grid-template-columns 속성은 가로 컬럼의 크기와 위치를 설정합니다."
+            ]    
+        },
+        {
+            "id": 15,
+            "link": "https://webzz.tistory.com/476",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "grid-template-columns",
+            "desc1": "grid-template-columns 속성은 가로 컬럼의 크기와 위치를 설정합니다.",
+            "desc2": "grid-template-columns 속성은 가로 컬럼의 크기와 위치를 설정합니다.",
+            "value": "grid-template-columns : 0",
+            "apply": "Grid",
+            "version": "CSS3",
+            "use": "★★☆",
+            "definition": [
+              "grid-template-columns 속성은 가로 컬럼의 크기와 위치를 설정합니다."
+            ]    
+        },
+        {
+            "id": 16,
+            "link": "https://webzz.tistory.com/482",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "justify-content",
+            "desc1": "justify-content 속성은 콘텐츠의 좌우 관계 정렬 상태를 정의합니다.",
+            "desc2": "justify-content 속성은 콘텐츠의 좌우 관계 정렬 상태를 정의합니다.",
+            "value": "justify-content : flex-start",
+            "apply": "flex",
+            "version": "CSS3",
+            "use": "-",
+            "definition": [
+              "justify-content 속성은 콘텐츠의 좌우 관계 정렬 상태를 정의합니다.",    
+              "justify-content 속성은 콘텐츠의 좌우 관계 정렬 상태를 정의하고 align-content 속성은 콘텐츠의 상하 관계 정렬 상태를 정의합니다.",
+              "justify-content 속성은 display:flex; 상태에서 적용됩니다."
+            ]    
+        },
+        {
+            "id": 17,
+            "link": "https://webzz.tistory.com/485",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "line-height",
+            "desc1": "line-height 속성은 문장과 문장 사이의 간격을 설정합니다.",
+            "desc2": "line-height 속성은 문장과 문장 사이의 간격을 설정합니다.",
+            "value": "line-height : normal",
+            "apply": "font",
+            "version": "CSS1",
+            "use": "-",
+            "definition": [
+              "line-height 속성은 문장과 문장 사이의 간격을 설정합니다."
+            ]    
+        },
+        {
+            "id": 19,
+            "link": "https://webzz.tistory.com/547",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "transform-origin",
+            "desc1": "transform-origin 속성은 요소의 움직임 방향 및 기준점을 설정합니다. transform 속성과 같이 설정하며 기준점에 따라 애니메이션의 방향을 설정 할 수 있습니다.",
+            "desc2": "transform-origin 속성은 요소의 움직임 방향을 정의합니다.",
+            "value": "transform-origin : 50% 50% 0",
+            "apply": "transform",
+            "version": "CSS3",
+            "use": "-",
+            "definition": [
+              "transform-origin 속성은 요소의 움직임 방향을 정의합니다."
+            ]    
+        },
+        {
+            "id": 20,
+            "link": "https://webzz.tistory.com/563",
+            "image": "https://blog.kakaocdn.net/dn/lb1e2/btqCynsmEdM/SN9ab0hWTiPVt1KSbQaI0K/img.png",
+            "title": "z-index",
+            "desc1": "z-index 속성은 요소의 위치가 겹칠 경우 순서를 정의합니다.",
+            "desc2": "z-index 속성은 요소의 위치가 겹칠 경우 순서를 정의합니다.",
+            "value": "z-index : 1",
+            "apply": "-",
+            "version": "CSS2",
+            "use": "-",
+            "definition": [
+              "z-index 속성은 요소의 위치가 겹칠 경우 순서를 정의합니다.",
+              "z-index는 음수(-)도 설정 할 수 있습니다.",
+              "z-index는 숫자가 높을수록 위로 올라옵니다. 99999까지만 설정할 수 있지만, 그 이상도 작동은 합니다.",
+              "z-index를 적용하지 않은 경우는 CSS 우선순위에 따라 나중에 설정한 속성이 위로 올라옵니다.",
+              "z-index는 요소의 위치가 겹쳤을 때 적용하기 때문에 position 값을 설정해야합니다."
+            ]    
+        }
+      ]
+    }
+  }
