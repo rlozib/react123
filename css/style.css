@@ -1283,6 +1283,15 @@ select {
 
 .refer__cont .table h3 {
   padding-bottom: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+
+.refer__cont .table h3.active {
+  border-bottom: 1px solid #fff;
 }
 
 .refer__cont .table ul {
@@ -1364,6 +1373,15 @@ select {
   border-bottom: 1px solid #dad8d1;
   border-right: 1px solid #dad8d1;
   color: #fff;
+}
+
+.refer__detail table td .syn {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.refer__detail table td .syn:last-child {
+  margin-bottom: 0;
 }
 
 .refer__detail li {
