@@ -476,3 +476,33 @@
          url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream9.woff) format('woff');
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: bold;
+    font-weight: bold;
+    src: local('Oswald Bold'), url('Oswald-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Oswald Regular Regular'), url('Oswald-Regular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Scheherazade';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Scheherazade Regular'), url('Scheherazade-Regular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Scheherazade';
+    font-style: bold;
+    font-weight: bold;
+    src: local('Scheherazade Bold'), url('Scheherazade-Bold.woff') format('woff');
+}

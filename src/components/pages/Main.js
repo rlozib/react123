@@ -25,6 +25,14 @@ function Main() {
                         {textInfo.map((info) => (
                             <Info text={info.text} key={info.text} />
                         ))}
+                        {/* <div class="contWrap">
+                            <span>1995</span>
+                            <div class="sentence">I’M THE ONLY<br/>
+                                WEB publisher
+                            </div>
+                            <div class="Icircle"><img src="assets/img/circle.png" alt="이미지" /></div>
+                            <div class="Bcircle"></div>
+                        </div> */}
                     </div>
                 </section>
             </Contents>

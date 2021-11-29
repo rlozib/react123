@@ -477,6 +477,34 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Oswald';
+  font-style: bold;
+  font-weight: bold;
+  src: local("Oswald Bold"), url("Oswald-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Oswald Regular Regular"), url("Oswald-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Scheherazade';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Scheherazade Regular"), url("Scheherazade-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Scheherazade';
+  font-style: bold;
+  font-weight: bold;
+  src: local("Scheherazade Bold"), url("Scheherazade-Bold.woff") format("woff");
+}
+
 /* border-box 초기화 */
 *,
 *:before,
@@ -1194,6 +1222,115 @@ select {
   margin-left: 18vw;
 }
 
+#mainCont2 {
+  background-color: #eee;
+  height: 100vh;
+  color: #1e1e1e;
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 9vw;
+  line-height: .91;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+#mainCont2 .contWrap {
+  position: relative;
+}
+
+#mainCont2 .contWrap span {
+  position: relative;
+  right: -6vw;
+  margin-top: 150px;
+  font-size: 40px;
+  display: inline;
+  top: 1vh;
+  z-index: 4;
+}
+
+#mainCont2 .contWrap .sentence {
+  position: relative;
+  font-size: 160px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  z-index: 4;
+  top: 1vh;
+}
+
+#mainCont2 .contWrap .Icircle {
+  position: relative;
+  z-index: 3;
+}
+
+#mainCont2 .contWrap .Icircle img {
+  width: 540px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  bottom: 20vh;
+}
+
+#mainCont2 .contWrap .Bcircle {
+  position: absolute;
+  top: 55vh;
+  left: -70vw;
+  width: 200vw;
+  height: 200vw;
+  border-radius: 50em;
+  border: 1px solid #1e1e1e;
+  z-index: 2;
+}
+
+@media (max-width: 1100px) {
+  #mainCont2 .contWrap span {
+    position: relative;
+    right: -11vw;
+    font-size: 30px;
+    top: 9vh;
+  }
+  #mainCont2 .contWrap .sentence {
+    font-size: 140px;
+    top: 10vh;
+  }
+  #mainCont2 .contWrap .Bcircle {
+    top: 55vh;
+    right: -980px;
+    width: 2900px;
+    height: 2900px;
+  }
+}
+
+@media (max-width: 930px) {
+  #mainCont2 .contWrap .span {
+    font-size: 20px;
+  }
+  #mainCont2 .contWrap .sentence {
+    font-size: 100px;
+  }
+  #mainCont2 .contWrap .Icircle img {
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 20vh;
+  }
+  #mainCont2 .contWrap .Bcircle {
+    top: 40vh;
+    right: -980px;
+    width: 2600px;
+    height: 2600px;
+  }
+}
+
 #aboutCont {
   background-color: #000;
   color: #fff;
@@ -1282,6 +1419,8 @@ select {
 }
 
 .refer__cont .table h3 {
+  font-family: 'Playfair Display';
+  font-weight: 700;
   padding-bottom: 10px;
   display: inline-block;
   text-transform: uppercase;
